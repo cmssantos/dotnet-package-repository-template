@@ -1,4 +1,4 @@
-﻿namespace Dotnet.Package.Repository.Template.Tests;
+﻿namespace Cms.Dotnet.Package.Repository.Template.Tests;
 
 public class MyClassUnitTest
 {

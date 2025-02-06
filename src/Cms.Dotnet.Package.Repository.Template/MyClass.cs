@@ -1,4 +1,4 @@
-﻿namespace Dotnet.Package.Repository.Template;
+﻿namespace Cms.Dotnet.Package.Repository.Template;
 
 public static class MyClass
 {

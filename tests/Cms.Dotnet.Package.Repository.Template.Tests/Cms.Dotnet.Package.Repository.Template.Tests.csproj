@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Dotnet.Package.Repository.Template\Dotnet.Package.Repository.Template.csproj" />
+    <ProjectReference Include="..\..\src\Cms.Dotnet.Package.Repository.Template\Cms.Dotnet.Package.Repository.Template.csproj" />
   </ItemGroup>
 
 </Project>

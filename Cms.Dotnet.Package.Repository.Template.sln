@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{690CEB47-B67F-44F1-834B-341BDE68783F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Package.Repository.Template", "src\Dotnet.Package.Repository.Template\Dotnet.Package.Repository.Template.csproj", "{F9793B6F-E67D-44E7-BAA1-BA6E772F9617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Dotnet.Package.Repository.Template", "src\Cms.Dotnet.Package.Repository.Template\Cms.Dotnet.Package.Repository.Template.csproj", "{F9793B6F-E67D-44E7-BAA1-BA6E772F9617}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49AE13C9-4A23-4CCD-8743-D96CE2765A83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Package.Repository.Template.Tests", "tests\Dotnet.Package.Repository.Template.Tests\Dotnet.Package.Repository.Template.Tests.csproj", "{E793D26E-7F8B-40EB-BBE1-C400569A8FCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Dotnet.Package.Repository.Template.Tests", "tests\Cms.Dotnet.Package.Repository.Template.Tests\Cms.Dotnet.Package.Repository.Template.Tests.csproj", "{E793D26E-7F8B-40EB-BBE1-C400569A8FCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
