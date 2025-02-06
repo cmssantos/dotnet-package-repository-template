@@ -1,0 +1,37 @@
+mode: ContinuousDelivery
+tag-prefix: '[vV]'
+commit-message-incrementing: Disabled
+
+branches:
+  develop:
+    regex: ^develop$
+    label: alpha
+    increment: Minor
+    track-merge-target: false
+    source-branches: []
+    tracks-release-branches: false
+    
+  main:
+    regex: ^main$
+    label: beta
+    increment: Patch
+    prevent-increment: true
+    is-release-branch: true
+    tracks-release-branches: false
+    is-main-branch: true
+
+  hotfix:
+    regex: ^hotfix[/-]
+    label: ""
+    increment: Patch
+    is-release-branch: false
+    prevent-increment: false
+    source-branches: [main, develop]
+
+  feature:
+    regex: ^feature[/-]
+    label: ""
+    increment: Minor
+    is-release-branch: false
+    prevent-increment: false
+    source-branches: [develop]
