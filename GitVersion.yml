@@ -35,3 +35,11 @@ branches:
     is-release-branch: false
     prevent-increment: false
     source-branches: [develop]
+
+  release:
+    regex: ^release[/-]
+    label: ""
+    increment: None
+    is-release-branch: true
+    prevent-increment: true
+    source-branches: [main]
