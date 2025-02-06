@@ -8,7 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>Dotnet.Package.Repository.Template</PackageId>
+    <PackageId>Cms.Dotnet.Package.Repository.Template</PackageId>
     <Authors>Cleudice Santos</Authors>
     <Company>Cms</Company>
     <Description>A DotNet package repository template</Description>
